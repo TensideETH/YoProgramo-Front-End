@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 1%;
+}
+
+#logoAP{
+    width: 150px;
+}
+
+#logoIn{
+    width: 200px;
+}
+
+img{
+    width: 40px;
+}
+
+.btn{
+    display: flex;
+}
+
+/*Vista celular*/
+@media(max-width:575px){
+    .container{
+        flex-direction: column;
+    
+    }
+    .redes{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+    }
+
+}
